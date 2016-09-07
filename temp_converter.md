@@ -1,0 +1,3 @@
+temp = (int(input("What is the temperature in Fahrenheit?")))
+cel = ((temp-32) * (5/9))
+print(int(cel))
