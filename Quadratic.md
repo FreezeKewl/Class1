@@ -1,0 +1,17 @@
+a = int(input('Enter a value for a:'))
+
+b = int(input('Enter a value for b:'))
+
+c = int(input('Enter a value for c:'))
+
+x = int(input('Enter a value for x:'))
+
+ans = (a*(x**2)+(b*x+c))
+print('\n')
+
+print('The following quadratic was entered:\n\n', a,"x^2","+",b,"x+",c)
+
+print('\n')
+
+print('The value of the quadratic is:', ans)
+
